@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "rimraf pacts && mocha",
-    "pact:publish": "pact-broker publish pacts --consumer-app-version='01' --broker-base-url=http://172.21.167.170",
-    "pact:publishWith": "pact-broker publish pacts --consumer-app-version=\"$(npx @pact-foundation/absolute-version)\" --tag-with-git-branch --broker-base-url=http://172.21.167.170"
+    "pact:publish": "pact-broker publish pacts --consumer-app-version='01' --broker-base-url=http://172.18.133.100",
+    "pact:publishWith": "pact-broker publish pacts --consumer-app-version=\"$(npx @pact-foundation/absolute-version)\" --tag-with-git-branch --broker-base-url=http://172.18.133.100"
   },
   "license": "MIT",
   "devDependencies": {
